@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Bootstrappin It</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="./style.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -16,7 +17,15 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
@@ -28,7 +37,13 @@
               <a class="nav-link" href="#">Link</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              <a
+                class="nav-link disabled"
+                href="#"
+                tabindex="-1"
+                aria-disabled="true"
+                >Disabled</a
+              >
             </li>
           </ul>
         </div>
@@ -37,10 +52,12 @@
     <main>
       <section class="py-5 text-center container">
         <div class="row py-lg-5">
-          <div class="col-lg-6 col-md-8  mx-auto">
+          <div class="col-lg-6 col-md-8 mx-auto">
             <h1 class="fw-light">Justice Reskill Bootstrap Example</h1>
             <p class="lead text-muted">
-              "Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don’t simply skip over it entirely."
+              "Something short and leading about the collection below—its
+              contents, the creator, etc. Make it short and sweet, but not too
+              short so folks don’t simply skip over it entirely."
             </p>
             <p>
               <a href="#" class="btn btn-primary my-2">Main call to action</a>
@@ -50,21 +67,249 @@
         </div>
       </section>
       <div class="album py-5 bg-light">
-        <div class="container"
-      </div>
-    </main>
-    <section class="jumbotron">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-sm-12 col-lg-4">
-            <img />
+        <div class="container">
+          <div class="row" id="thumbnails">
+            <div class="col-sm-12 col-md-3 col-lg-3">
+              <div class="card shadow-sm">
+                <svg
+                  class="bd-placeholder-img card-img-top"
+                  width="100%"
+                  height="225"
+                  xmlns="http://www.w3.org/2000/svg"
+                  role="img"
+                  aria-label="Placeholder: Thumbnail"
+                  preserveAspectRatio="xMidYMid slice"
+                  focusable="false"
+                >
+                  <title>Placeholder</title>
+                  <rect width="100%" height="100%" fill="#55595c"></rect>
+                  <text x="50%" y="50%" fill="#eceeef" dy=".3em">
+                    Thumbnail
+                  </text>
+                </svg>
+                <div class="card-body">
+                  <p class="card-text">
+                    "This is a wider card with supporting text below as a
+                    natural lead-in to additional content. This content is a
+                    little bit longer."
+                  </p>
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <div class="btn-group">
+                      <button
+                        type="button"
+                        class="btn btn-sm btn-outline-secondary"
+                      >
+                        View
+                      </button>
+                      <button
+                        type="button"
+                        class="btn btn-sm btn-outline-secondary"
+                      >
+                        Edit
+                      </button>
+                    </div>
+                    <small class="text-muted">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="row"></div>
-        <div class="row"></div>
+      </div>
+      <div class="col-sm-12 col-lg-4">
+        <div class="card shadow-sm">
+          <svg
+            class="bd-placeholder-img card-img-top"
+            width="100%"
+            height="225"
+            xmlns="http://www.w3.org/2000/svg"
+            role="img"
+            aria-label="Placeholder: Thumbnail"
+            preserveAspectRatio="xMidYMid slice"
+            focusable="false"
+          >
+            <title>Placeholder</title>
+            <rect width="100%" height="100%" fill="#55595c"></rect>
+            <text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text>
+          </svg>
+
+          <div class="card-body">
+            <p class="card-text">
+              This is a wider card with supporting text below as a natural
+              lead-in to additional content. This content is a little bit
+              longer.
+            </p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <button type="button" class="btn btn-sm btn-outline-secondary">
+                  View
+                </button>
+                <button type="button" class="btn btn-sm btn-outline-secondary">
+                  Edit
+                </button>
+              </div>
+              <small class="text-muted">9 mins</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12 col-lg-4">
+        <div class="card shadow-sm">
+          <svg
+            class="bd-placeholder-img card-img-top"
+            width="100%"
+            height="225"
+            xmlns="http://www.w3.org/2000/svg"
+            role="img"
+            aria-label="Placeholder: Thumbnail"
+            preserveAspectRatio="xMidYMid slice"
+            focusable="false"
+          >
+            <title>Placeholder</title>
+            <rect width="100%" height="100%" fill="#55595c"></rect>
+            <text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text>
+          </svg>
+
+          <div class="card-body">
+            <p class="card-text">
+              This is a wider card with supporting text below as a natural
+              lead-in to additional content. This content is a little bit
+              longer.
+            </p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <button type="button" class="btn btn-sm btn-outline-secondary">
+                  View
+                </button>
+                <button type="button" class="btn btn-sm btn-outline-secondary">
+                  Edit
+                </button>
+              </div>
+              <small class="text-muted">9 mins</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row text-center" id="headings">
+        <div class="col-lg-4">
+          <svg
+            class="bd-placeholder-img rounded-circle"
+            width="140"
+            height="140"
+            xmlns="http://www.w3.org/2000/svg"
+            role="img"
+            aria-label="Placeholder: 140x140"
+            preserveAspectRatio="xMidYMid slice"
+            focusable="false"
+          >
+            <title>Placeholder</title>
+            <rect width="100%" height="100%" fill="#777"></rect>
+            <text x="50%" y="50%" fill="#777" dy=".3em">140x140</text>
+          </svg>
+
+          <h2>Heading</h2>
+          <p>
+            Some representative placeholder content for the three columns of
+            text below the carousel. This is the first column.
+          </p>
+          <p><a class="btn btn-secondary" href="#">View details »</a></p>
+        </div>
+        <!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <svg
+            class="bd-placeholder-img rounded-circle"
+            width="140"
+            height="140"
+            xmlns="http://www.w3.org/2000/svg"
+            role="img"
+            aria-label="Placeholder: 140x140"
+            preserveAspectRatio="xMidYMid slice"
+            focusable="false"
+          >
+            <title>Placeholder</title>
+            <rect width="100%" height="100%" fill="#777"></rect>
+            <text x="50%" y="50%" fill="#777" dy=".3em">140x140</text>
+          </svg>
+
+          <h2>Heading</h2>
+          <p>
+            Another exciting bit of representative placeholder content. This
+            time, we've moved on to the second column.
+          </p>
+          <p><a class="btn btn-secondary" href="#">View details »</a></p>
+        </div>
+        <!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <svg
+            class="bd-placeholder-img rounded-circle"
+            width="140"
+            height="140"
+            xmlns="http://www.w3.org/2000/svg"
+            role="img"
+            aria-label="Placeholder: 140x140"
+            preserveAspectRatio="xMidYMid slice"
+            focusable="false"
+          >
+            <title>Placeholder</title>
+            <rect width="100%" height="100%" fill="#777"></rect>
+            <text x="50%" y="50%" fill="#777" dy=".3em">140x140</text>
+          </svg>
+
+          <h2>Heading</h2>
+          <p>
+            And lastly this, the third column of representative placeholder
+            content.
+          </p>
+          <p><a class="btn btn-secondary" href="#">View details »</a></p>
+        </div>
+        <!-- /.col-lg-4 -->
+      </div>
+      <hr class="featurette-divider" />
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">
+            First featurette heading.
+            <span class="text-muted">It’ll blow your mind.</span>
+          </h2>
+          <p class="lead">
+            Some great placeholder content for the first featurette here.
+            Imagine some exciting prose here.
+          </p>
+        </div>
+        <div class="col-md-5">
+          <svg
+            class="
+              bd-placeholder-img bd-placeholder-img-lg
+              featurette-image
+              img-fluid
+              mx-auto
+            "
+            width="500"
+            height="500"
+            xmlns="http://www.w3.org/2000/svg"
+            role="img"
+            aria-label="Placeholder: 500x500"
+            preserveAspectRatio="xMidYMid slice"
+            focusable="false"
+          >
+            <title>Placeholder</title>
+            <rect width="100%" height="100%" fill="#eee"></rect>
+            <text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text>
+          </svg>
+        </div>
       </div>
     </main>
-    </section>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+    <footer class="footer mt-auto py-3 bg-dark">
+      <div class="container">
+        <span class="text-muted">Place sticky footer content here.</span>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
